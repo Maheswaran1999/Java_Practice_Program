@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 public class DropDown {
 
 	public static void main(String[] args) throws InterruptedException {
-	  System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver_win32\\chromedriver.exe");
 	  WebDriver driver=new ChromeDriver();
 	  driver.get("https://www.leafground.com/select.xhtml");
 	  //For Maximize Size
