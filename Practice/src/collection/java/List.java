@@ -1,4 +1,4 @@
-package recall.collection;
+package collection.java;
 
 import java.util.ArrayList;
 import java.util.Arrays;

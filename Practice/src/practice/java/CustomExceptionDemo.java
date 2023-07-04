@@ -17,7 +17,9 @@ public class CustomExceptionDemo {
 			new MahesException("MahesException");
 			System.out.println(e);
 			System.out.println("Catch block");
-		} finally {
+		} 
+		
+		finally {
 			System.out.println("Finally block");
 		}
 	}

@@ -1,4 +1,4 @@
-package Stream;
+package streamPractice;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -27,7 +27,7 @@ public class DemoForStream {
 		}
 
 		List<Integer> result = var.stream().map(x -> x * 2).collect(Collectors.toList());
-		System.out.println(result);
+		System.out.println("x * 2 :" + result);
 
 		int finalResult = result.stream().reduce(0, (a, b) -> a + b);
 		System.out.println("sum Result:" + finalResult);
